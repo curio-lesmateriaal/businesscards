@@ -6,9 +6,10 @@ use Livewire\Component;
 
 class Dashboard extends Component
 {
+    public $active = 'dashboard';
 
     public function show( $type ) {
-        dd($type);
+        $this->active = $type;
     }
 
     public function render()

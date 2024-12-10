@@ -17,7 +17,7 @@
           </ul>
 
           <div class="main ml-20">
-            test
+            {{ $active }}
           </div>
     </div>
 </div>
