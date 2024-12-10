@@ -16,7 +16,7 @@
                     </svg>
                 </label>
             </div>
-            <ul class="menu bg-base-200 rounded-box w-full mt-4">
+            <ul class="menu flex-nowrap h-60 overflow-y-scroll bg-base-200 rounded-box w-full mt-4">
                 @foreach($companies as $company)
                     <li wire:click="setActive({{$company->id}})"><a> {{ $company->name }} </a></li>
                 @endforeach
